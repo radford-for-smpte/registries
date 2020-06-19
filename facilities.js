@@ -1,6 +1,6 @@
 const codeColumns = Array.from(document.querySelectorAll('tbody .code'))
 const descColumns = Array.from(document.querySelectorAll('tbody .description'))
-const rows = Array.from(document.querySelectorAll('tbody tr'))
+const rows = descColumns.map(({ parentNode }) => parentNode)
 const descriptions = descColumns.map(({ textContent }) => textContent.toLowerCase())
 const codes        = codeColumns.map(({ textContent }) => textContent.toLowerCase())
 
