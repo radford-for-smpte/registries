@@ -13,14 +13,17 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light d-print-block d-flex justify-content-between">
     <a class="navbar-brand" href="#">ISDCF Facilities List</a>
-    <ul class="navbar-nav align-items-center">
-      <li>
-        <a id="pdf-download" class="mx-3 btn btn-primary btn-sm d-print-none" title="Download as PDF"
-          href="isdcf-facilities.pdf">Download as PDF</a></li>
-      <li>
+    <ul class="navbar-nav align-items-center d-print-none">
+      <li class="nav-item">
+        <a id="json-feed" class="nav-link" href="http://registry.isdcf.com/facilities">JSON Feed</a>
+      </li>
+      <li class="nav-item">
+        <a id="pdf-download" class="mx-3 btn btn-primary btn-sm" title="Download as PDF" href="isdcf-facilities.pdf">Download as
+          PDF</a>
+      </li>
+      <li class="nav-item">
         <form class="form-inline">
-          <input id="search" class="form-control d-print-none" type="search" placeholder="Search Facilities"
-            aria-label="Search">
+          <input id="search" class="form-control" type="search" placeholder="Search Facilities" aria-label="Search">
         </form>
       </li>
     </ul>
@@ -241,9 +244,9 @@
       <tr id="facility-AIX">
         <td class="code"><code>AIX</code></td>
         <td><span class="description">ACCESS IT</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-CIN">CIN</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-CIN">CIN</a>
         </td>
       </tr>
       <tr id="facility-AK">
@@ -1044,9 +1047,9 @@
       <tr id="facility-CPT">
         <td class="code"><code>CPT</code></td>
         <td><span class="description">CINEPOST</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-PFX">PFX</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-PFX">PFX</a>
         </td>
       </tr>
       <tr id="facility-CPX">
@@ -1212,9 +1215,9 @@
       <tr id="facility-DAU">
         <td class="code"><code>DAU</code></td>
         <td><span class="description">DELUXE AUSTRALIA</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-DTA">DTA</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-DTA">DTA</a>
         </td>
       </tr>
       <tr id="facility-DB">
@@ -1335,10 +1338,10 @@
       <tr id="facility-DDS">
         <td class="code"><code>DDS</code></td>
         <td><span class="description">Disney</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-DSS">DSS</a>
-              <a class="facility-link" href="#facility-WDS">WDS</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-DSS">DSS</a>
+          <a class="facility-link" href="#facility-WDS">WDS</a>
         </td>
       </tr>
       <tr id="facility-DEF">
@@ -1429,9 +1432,9 @@
       <tr id="facility-DLA">
         <td class="code"><code>DLA</code></td>
         <td><span class="description">DELUXE LA</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-DTB">DTB</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-DTB">DTB</a>
         </td>
       </tr>
       <tr id="facility-DLB">
@@ -1552,9 +1555,9 @@
       <tr id="facility-DSP">
         <td class="code"><code>DSP</code></td>
         <td><span class="description">DELUXE SPAIN</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-DTM">DTM</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-DTM">DTM</a>
         </td>
       </tr>
       <tr id="facility-DSS">
@@ -1620,9 +1623,9 @@
       <tr id="facility-DUK">
         <td class="code"><code>DUK</code></td>
         <td><span class="description">DELUXE UK</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-DTU">DTU</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-DTU">DTU</a>
         </td>
       </tr>
       <tr id="facility-DVF">
@@ -1673,17 +1676,17 @@
       <tr id="facility-DXL">
         <td class="code"><code>DXL</code></td>
         <td><span class="description">DCINEX - LIÈGE</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-EBL">EBL</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-EBL">EBL</a>
         </td>
       </tr>
       <tr id="facility-DXT">
         <td class="code"><code>DXT</code></td>
         <td><span class="description">DCINEX - TUEBINGEN</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-EGB">EGB</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-EGB">EGB</a>
         </td>
       </tr>
       <tr id="facility-EA">
@@ -1709,9 +1712,9 @@
       <tr id="facility-ECL">
         <td class="code"><code>ECL</code></td>
         <td><span class="description">ÉCLAIR LABS</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-EFP">EFP</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-EFP">EFP</a>
         </td>
       </tr>
       <tr id="facility-ECP">
@@ -2822,7 +2825,7 @@
       <tr id="facility-LP">
         <td class="code"><code>LP</code></td>
         <td><span class="description">LAST PICTURES</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
         </td>
       </tr>
       <tr id="facility-LPC">
@@ -3638,7 +3641,7 @@
       <tr id="facility-PNY">
         <td class="code"><code>PNY</code></td>
         <td><span class="description">POST FACTORY NY</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
         </td>
       </tr>
       <tr id="facility-POD">
@@ -3689,9 +3692,9 @@
       <tr id="facility-PSP">
         <td class="code"><code>PSP</code></td>
         <td><span class="description">PROMOSCAPE</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-RDL">RDL</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-RDL">RDL</a>
         </td>
       </tr>
       <tr id="facility-PSR">
@@ -3742,9 +3745,9 @@
       <tr id="facility-PX">
         <td class="code"><code>PX</code></td>
         <td><span class="description">PIXAR</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-PXR">PXR</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-PXR">PXR</a>
         </td>
       </tr>
       <tr id="facility-PXB">
@@ -4110,9 +4113,9 @@
       <tr id="facility-SDC">
         <td class="code"><code>SDC</code></td>
         <td><span class="description">SOHO DIGITAL CINEMA</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-VDM">VDM</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-VDM">VDM</a>
         </td>
       </tr>
       <tr id="facility-SDL">
@@ -4123,9 +4126,9 @@
       <tr id="facility-SDM">
         <td class="code"><code>SDM</code></td>
         <td><span class="description">SOHO DIGITAL MEDIA</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-SDC">SDC</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-SDC">SDC</a>
         </td>
       </tr>
       <tr id="facility-SDP">
@@ -4496,9 +4499,9 @@
       <tr id="facility-TDC">
         <td class="code"><code>TDC</code></td>
         <td><span class="description">TECHNICOLOR DIGITAL CINEMA LA</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-DTB">DTB</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-DTB">DTB</a>
         </td>
       </tr>
       <tr id="facility-TDE">
@@ -4519,9 +4522,9 @@
       <tr id="facility-TE">
         <td class="code"><code>TE</code></td>
         <td><span class="description">TRENCH ENTERTAINMENT</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-TRD">TRD</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-TRD">TRD</a>
         </td>
       </tr>
       <tr id="facility-TEF">
@@ -4537,9 +4540,9 @@
       <tr id="facility-TEU">
         <td class="code"><code>TEU</code></td>
         <td><span class="description">TECHNICOLOR DIGITAL CINEMA UK</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-DTU">DTU</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-DTU">DTU</a>
         </td>
       </tr>
       <tr id="facility-TFD">
@@ -4850,9 +4853,9 @@
       <tr id="facility-VG">
         <td class="code"><code>VG</code></td>
         <td><span class="description">VISION GLOBALE</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-MEL">MEL</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-MEL">MEL</a>
         </td>
       </tr>
       <tr id="facility-VIC">
@@ -4998,9 +5001,9 @@
       <tr id="facility-XDC">
         <td class="code"><code>XDC</code></td>
         <td><span class="description">XDC DIGITAL LAB</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-DXL">DXL</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-DXL">DXL</a>
         </td>
       </tr>
       <tr id="facility-XXL">
@@ -5011,31 +5014,31 @@
       <tr id="facility-YBA">
         <td class="code"><code>YBA</code></td>
         <td><span class="description">YMAGIS BARCELONA</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-ESB">ESB</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-ESB">ESB</a>
         </td>
       </tr>
       <tr id="facility-YBE">
         <td class="code"><code>YBE</code></td>
         <td><span class="description">YMAGIS BERLIN</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-EGB">EGB</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-EGB">EGB</a>
         </td>
       </tr>
       <tr id="facility-YMA">
         <td class="code"><code>YMA</code></td>
         <td><span class="description">YMAGIS</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-EFP">EFP</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-EFP">EFP</a>
         </td>
       </tr>
       <tr id="facility-YMF">
         <td class="code"><code>YMF</code></td>
         <td><span class="description">YMAGIFILM</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
         </td>
       </tr>
       <tr id="facility-YMQ">
@@ -5046,9 +5049,9 @@
       <tr id="facility-YPA">
         <td class="code"><code>YPA</code></td>
         <td><span class="description">YMAGIS PARIS</span>
-            <span class="mx-3 badge badge-danger">Deprecated</span>
-              <span>Replaced by:</span>
-              <a class="facility-link" href="#facility-EFP">EFP</a>
+          <span class="mx-3 badge badge-danger">Deprecated</span>
+          <span>Replaced by:</span>
+          <a class="facility-link" href="#facility-EFP">EFP</a>
         </td>
       </tr>
       <tr id="facility-YPP">
@@ -5125,8 +5128,8 @@
   </table>
   <footer>
     <small class="text-muted">
-      <p class="text-center">Version: <code>0f3737a12253a88f1fc6739a227d621979a961da</code></p>
-      <p class="text-center">Generated on Fri Jun 19 2020 20:27:51 GMT+0000 (Coordinated Universal Time)</p>
+      <p class="text-center">Version: <code>4559a6966333fc5ab676776897938db6f5e28065</code></p>
+      <p class="text-center">Generated on Thu Jun 25 2020 00:47:08 GMT+0000 (Coordinated Universal Time)</p>
     </small>
   </footer>
 </body>
